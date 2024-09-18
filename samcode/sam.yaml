@@ -1,0 +1,15 @@
+app:
+  name: MyWebApp
+  version: 1.0.0
+  environment: development
+
+database:
+  host: localhost
+  port: 5432
+  username: user
+  password: pass
+  database_name: my_database
+
+logging:
+  level: info
+  file: /var/log/mywebapp.log
